@@ -1,7 +1,7 @@
 # Agent Analytics
 
 
-Backend analytics platform for agentic AI applications with observability and analytics.
+Observability SDK, Agent-Analytics Runtime SDK and  analytics platform for agentic AI applications with observability and analytics.
 
 ## Repository Structure
 ```
