@@ -5,4 +5,4 @@ python-dotenv
 botocore
 setuptools
 packaging
-git+ssh://git@github.ibm.com/agent-analytics/common.git@main
+git+https://github.com/AgentToolkit/agent-analytics.git@main#subdirectory=common

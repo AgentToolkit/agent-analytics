@@ -8,11 +8,11 @@ setup(
     description="Agent Analytics observability SDK package",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="https://github.ibm.com/agent-analytics/sdk",
+    url="https://github.com/AgentToolkit/agent-analytics/tree/main/sdk",
     package_dir={"": "src"},
     packages=find_packages(where="src", include=["agent_analytics*"]),
     install_requires=[
-        "agent-analytics-common @ file://../common",
+        "agent-analytics-common @ git+https://github.com/AgentToolkit/agent-analytics.git@main#subdirectory=common",
         "traceloop-sdk>=0.47.5,<0.49.0",
         "opentelemetry-instrumentation-fastapi>=0.50b0",
         "pydantic>=2.8.2",
