@@ -20,4 +20,4 @@ pymilvus
 pymilvus[model]
 flake8==7.1.1
 litellm
-git+ssh://git@github.ibm.com/agent-analytics/common.git@main
+git+https://github.com/AgentToolkit/agent-analytics.git@main#subdirectory=common

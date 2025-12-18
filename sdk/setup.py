@@ -12,7 +12,7 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src", include=["agent_analytics*"]),
     install_requires=[
-        "agent-analytics-common @ file://../common",
+        "agent-analytics-common @ git+https://github.com/AgentToolkit/agent-analytics.git@main#subdirectory=common",
         "traceloop-sdk>=0.47.5,<0.49.0",
         "opentelemetry-instrumentation-fastapi>=0.50b0",
         "pydantic>=2.8.2",
