@@ -8,7 +8,7 @@ setup(
     description="Agent Analytics observability SDK package",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="https://github.ibm.com/agent-analytics/sdk",
+    url="https://github.com/AgentToolkit/agent-analytics/tree/main/sdk",
     package_dir={"": "src"},
     packages=find_packages(where="src", include=["agent_analytics*"]),
     install_requires=[
