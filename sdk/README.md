@@ -21,21 +21,12 @@ You can install **Agent Analytics SDK** directly from the Git repository using `
 
 ### Install via `pip` from Git Repository
 
-
-To install the SDK directly from the Git repository, use one of the following methods:
-
-### Install the Latest Version
-Install the `release` branch to get the latest stable updates:
+To install the SDK directly from the Git repository:
 
 ```bash
-pip install git+ssh://git@github.ibm.com/agent-analytics/sdk.git@release
+pip install "git+https://github.com/AgentToolkit/agent-analytics.git@main#subdirectory=sdk"
 ```
-### Install a Specific Version
-To install a specific version of the SDK, use a version tag (e.g., v0.6.1):
 
-```bash
-pip install git+ssh://git@github.ibm.com/agent-analytics/sdk.git@v0.6.1
-```
 ### Alternative: Clone and Install Locally
 
 If you prefer to work with the source code or contribute to the project, you can clone the repository and install it locally.
@@ -43,13 +34,13 @@ If you prefer to work with the source code or contribute to the project, you can
 1. **Clone the Repository**
 
    ```bash
-   git clone git@github.ibm.com:agent-analytics/sdk.git@your_dev_branch
+   git clone https://github.com/AgentToolkit/agent-analytics.git
    ```
 
-2. **Navigate to the Repository Directory**
+2. **Navigate to the SDK Directory**
 
    ```bash
-   cd observability-sdk
+   cd agent-analytics/sdk
    ```
 
 3. **Install the Package**
@@ -229,7 +220,7 @@ AIEventRecorder.record_issue(
 This approach allows users to manually record semantic data that is then attached to the relevant spans.  
 **Important:** Currently, the `related_to_ids` parameter is not supported in the recording operation.
 
-### For further and more complete examples, refer to the [examples repo](https://github.ibm.com/agent-analytics/examples).
+### For further and more complete examples, refer to the [examples folder](https://github.com/AgentToolkit/agent-analytics/tree/main/examples).
 
 ## Architecture
 For information on the architecture of the SDK and the key components, please review [architecture.md](docs/architecture.md)
@@ -295,6 +286,6 @@ The `agent_analytics_sdk` instrumentation enables you to generate logs and analy
 
 ### Support and Feedback
 
-For any questions, feedback, or assistance, feel free to visit our [Agent Analytics Users Slack Channel](https://ibm.enterprise.slack.com/archives/C082N61GVE1). Our team is here to help ensure you get the most out of the Agent Analytics SDK.
+For any questions, feedback, or assistance, Our team is here to help ensure you get the most out of the Agent Analytics SDK.
 
 ---
