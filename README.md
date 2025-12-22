@@ -62,9 +62,11 @@ agent-analytics/
 ├── sdk/                        # Observability SDK
 │   ├── src/
 │   │   └── agent_analytics/
-│   │       ├── instrumentation/   # Auto-instrumentation modules
-│   │       ├── reportable/        # Manual reporting APIs
-│   │       └── configs/           # Configuration classes
+│   │       └── instrumentation/   # Instrumentation package
+│   │           ├── reportable/    # Manual reporting APIs
+│   │           ├── configs/       # Configuration classes
+│   │           ├── utils/         # Utility functions
+│   │           └── traceloop/     # Traceloop integration
 │   ├── tests/                 # SDK test suite
 │   ├── docs/                  # Architecture and guides
 │   ├── setup.py               # SDK package configuration
