@@ -2,15 +2,15 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
-from src.core.data.base_data_manager import DataManager
-from src.core.data_composite.base_trace import BaseTraceComposite
-from src.core.data_composite.task import TaskComposite
-from src.core.data_composite.trace_group import TraceGroupComposite
-from src.core.data_composite.trace_workflow import BaseTraceWorkflow
-from src.core.data_composite.workflow import BaseWorkflow
-from src.core.data_composite.workflow_edge import BaseWorkflowEdge
-from src.core.data_composite.workflow_node import BaseWorkflowNode
-from src.core.plugin.base_plugin import (
+from agent_analytics.core.data.base_data_manager import DataManager
+from agent_analytics.core.data_composite.base_trace import BaseTraceComposite
+from agent_analytics.core.data_composite.task import TaskComposite
+from agent_analytics.core.data_composite.trace_group import TraceGroupComposite
+from agent_analytics.core.data_composite.trace_workflow import BaseTraceWorkflow
+from agent_analytics.core.data_composite.workflow import BaseWorkflow
+from agent_analytics.core.data_composite.workflow_edge import BaseWorkflowEdge
+from agent_analytics.core.data_composite.workflow_node import BaseWorkflowNode
+from agent_analytics.core.plugin.base_plugin import (
     BaseAnalyticsPlugin,
     ExecutionError,
     ExecutionResult,

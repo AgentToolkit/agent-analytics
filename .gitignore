@@ -1,0 +1,14 @@
+backend/uv.lock
+
+# Dependencies
+node_modules/
+backend/.env
+backend/package-lock.json
+
+# Build artifacts
+**/client/build/
+
+# Python
+*.pyc
+__pycache__/
+backend/src/agent_analytics/client/package-lock.json
